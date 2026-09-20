@@ -1,0 +1,24 @@
+# Large datasets
+NIDS_combined.parquet
+Dataset/
+
+# Large processed arrays
+NIDS_processed_data/X_train_final.npy
+NIDS_processed_data/X_test_final.npy
+
+# Large model
+models/random_forest.pkl
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
